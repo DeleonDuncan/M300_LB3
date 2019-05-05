@@ -14,43 +14,18 @@ Siehe [LB2 - Kriterium 1](https://github.com/DeleonDuncan/M300_LB2/blob/master/R
 
 
 
-## Docker for Windows (Kriterien 3)
+## Minkube
 
-Für die LB3 habe ich mich für Docker for Windows entschieden.
+Minikube ist ein Tool, mit dem Kubernetes lokal einfach ausgeführt werden kann. Minikube führt einen Kubernetes-Cluster mit Einzelknoten in einer VM auf Ihrem Laptop aus, damit Benutzer Kubernetes ausprobieren oder täglich damit entwickeln können.
 
-Es wäre für mich zu unübersichtlich geworden mit Vagrant. 
-Denn bekanntlich wird mir mehreren Schichten alles komplexer. Deshalb werde ich den Vagrant Teil überspringen,
-und direkt Container von Docker ausführen.
-
-Wir starten mit dem installieren von Docker.
-
-Dazu muss man sich bei [Docker Hub](https://hub.docker.com/) eine Docker-ID erstellen, 
-und danach Docker herunterladen. Wichtig dabei ist, dass man Hyper-V aktiviert hat oder währen der Installation aktiviert.
-Dabei muss man beachten das VirtualBox mit der Aktivierung von Hyper-V nicht mehr funktioniert
+[Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) nach dem Download habe ich es mit [Chocolatey](https://chocolatey.org/) installiert.
 
 
-Hat man Docker installiert, loggt man sich mit der Docker-ID ein und started Docker von CMD oder Powershell.
+      Minkube dashboard
 
-      docker run hello-world
+Leitet mit Direkt zum Dashboard weiter
 
-Lädt ein Image herunter welches erklärt wie der Docker Client und Daemon miteinander agieren.
-
-# Docker Befehle
-
-Befehl         |  Beschreibung
--------------- |----------
-docker run 	   |  Führt einen Befehl in einem neuen Container aus
-docker start 	 |  Startet einen oder mehrere Container
-docker stop 	 |  Stoppt einen oder mehrere Container
-docker build 	 | Baut eine Image aus dem Dockerfile
-docker pull 	 |  Lädt Image aus einer Repository herunter
-docker push 	 |  Lädt Image in eine Repository hoch
-
-# Einrichten von Kubernetes
-
-Unter den Docker Settings gibt es die Option Kubernetes zu enablen.
-
-
+<h     
 
 
 
