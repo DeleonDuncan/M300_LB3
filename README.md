@@ -24,11 +24,18 @@ Mit dem folgenden Befehl kann man Chocolatey per CMD oder Powershell mit Adminre
 
       @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None     -ExecutionPolicy Bypass -Command "iex ((New-Object    System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
+Nachdem Chocolatey installiert ist, installieren wir minikube und kubernetes-cli
 
+      choco install minikube kubernetes-cli
 
-      Minkube dashboard
+Nach der installation starte ich minikube und führe das Dashboard aus.
 
-Leitet mich direkt zum Dashboard weiter
+      minikube start
+      minikube dashboard
+      
+Nun sollte man zum Dashboard kommen
+
+<img src="https://github.com/DeleonDuncan/M300_LB3/blob/master/images/dashboard%20m300.PNG" alt="Dashboard minikube" title="" />
 
      
 
