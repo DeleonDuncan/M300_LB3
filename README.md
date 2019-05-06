@@ -44,7 +44,9 @@ Minikube/Kubernetes:
 	Zuvor haben wir uns nur mit Vagrant und Docker beschäftigt. In der LB3 bin ich dann auf Kubernetes gestossen.
         Mit Kubernetes hat sich mein Verständnis im Thema automatisierung sehr verbessert. 
 	Ich habe verstanden, dass es darauf abzielt eine Plattform
-	zu sein, die automatisiert Anwendungen in Container verpackt und diese auf virtuellen Hosts, sogenannte Pods, auszuführen. Spannend finde ich die           	    implementation von Docker. So hat man anscheinen grenzenlose Mäglichkeiten Software auszuführen und managen.
+	zu sein, die automatisiert Anwendungen in Container verpackt und diese auf virtuellen Hosts, 
+	sogenannte Pods, auszuführen. Spannend finde ich die implementation von Docker. 
+	So hat man anscheinen grenzenlose Mäglichkeiten Software auszuführen und managen.
 
 
 
