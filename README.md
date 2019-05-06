@@ -18,7 +18,7 @@ Siehe [LB2 - Kriterium 1](https://github.com/DeleonDuncan/M300_LB2/blob/master/R
 
 Minikube ist ein Tool, mit dem Kubernetes lokal einfach ausgeführt werden kann. Minikube führt einen Kubernetes-Cluster mit Einzelknoten in einer VM auf Ihrem Laptop aus, damit Benutzer Kubernetes ausprobieren oder täglich damit entwickeln können.
 
-[Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) habe ich nach dem Download mit [Chocolatey](https://chocolatey.org/) installiert. Chocolatey ist ein Software Verwaltungstool für Windows.Es ähnelt Linux Software Managern
+[Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) habe ich nach dem Download mit [Chocolatey](https://chocolatey.org/) installiert. Chocolatey ist ein Software Verwaltungstool für Windows. Es ähnelt Linux Software Managern
 
 Mit dem folgenden Befehl kann man Chocolatey per CMD oder Powershell mit Adminrechten installieren.
 
@@ -36,6 +36,8 @@ Nach der installation starte ich minikube und führe das Dashboard aus.
 Nun sollte man zum Dashboard kommen
 
 <img src="https://github.com/DeleonDuncan/M300_LB3/blob/master/images/dashboard%20m300.PNG" alt="Dashboard minikube" title="" />
+
+
 
      
 
