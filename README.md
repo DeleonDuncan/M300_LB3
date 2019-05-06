@@ -41,7 +41,8 @@ Minikube	  | Ich habe anstatt Kubernetes Minikube verwendet. Minikube primär f�
 
 Minikube/Kubernetes:
         
-	Zuvor haben wir uns nur mit Vagrant und Docker beschäftigt. In der LB3 bin ich dann auf Kubernetes gestossen.
+	Zuvor haben wir uns nur mit Vagrant und Docker beschäftigt. 
+	In der LB3 bin ich dann auf Kubernetes gestossen.
         Mit Kubernetes hat sich mein Verständnis im Thema automatisierung sehr verbessert. 
 	Ich habe verstanden, dass es darauf abzielt eine Plattform
 	zu sein, die automatisiert Anwendungen in Container verpackt und diese auf virtuellen Hosts, 
