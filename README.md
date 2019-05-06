@@ -18,14 +18,15 @@ Siehe [LB2 - Kriterium 1](https://github.com/DeleonDuncan/M300_LB2/blob/master/R
 
 Minikube ist ein Tool, mit dem Kubernetes lokal einfach ausgeführt werden kann. Minikube führt einen Kubernetes-Cluster mit Einzelknoten in einer VM auf Ihrem Laptop aus, damit Benutzer Kubernetes ausprobieren oder täglich damit entwickeln können.
 
-[Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) nach dem Download habe ich es mit [Chocolatey](https://chocolatey.org/) installiert.
+[Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) habe ich nach dem Download mit [Chocolatey](https://chocolatey.org/) installiert. Chocolatey ist ein Software Verwaltungstool für Windows.
+Es ähnelt Linux Software Managern
 
 
       Minkube dashboard
 
-Leitet mit Direkt zum Dashboard weiter
+Leitet mich direkt zum Dashboard weiter
 
-<h     
+     
 
 
 
